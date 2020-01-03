@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>MAVLink</id>
+    <version>1.0.0</version>
+    <authors>Michael Oborne</authors>
+    <owners>Michael Oborne</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>MAVLink for Ardupilot</description>
+    <dependencies>
+      <group targetFramework=".NETFramework4.6.2">
+        <dependency id="log4net" version="2.0.8" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="D:\project\MissionPlanner-MissionPlanner1.3.49\ExtLibs\Mavlink\bin\Debug\net462\MAVLink.dll" target="lib\net462\MAVLink.dll" />
+  </files>
+</package>

@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>MAVLink</id>
+    <version>1.0.0</version>
+    <authors>Michael Oborne</authors>
+    <owners>Michael Oborne</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>MAVLink for Ardupilot</description>
+    <dependencies>
+      <group targetFramework=".NETFramework4.6.2">
+        <dependency id="BSE.Windows.Forms" version="1.0.0" exclude="Build,Analyzers" />
+        <dependency id="System.Globalization" version="4.3.0" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="E:\1515\amovplanner(已完成)\Gmap.net\Mavlink\bin\Debug\net462\MAVLink.dll" target="lib\net462\MAVLink.dll" />
+  </files>
+</package>

@@ -1,0 +1,38 @@
+E:\MissionPlanner-MissionPlanner1.3.49\MissionPlanner-MissionPlanner1.3.49\ExtLibs\BSE.Windows.Forms\bin\Debug\BSE.Windows.Forms.XML
+E:\MissionPlanner-MissionPlanner1.3.49\MissionPlanner-MissionPlanner1.3.49\ExtLibs\BSE.Windows.Forms\bin\Debug\BSE.Windows.Forms.dll
+E:\MissionPlanner-MissionPlanner1.3.49\MissionPlanner-MissionPlanner1.3.49\ExtLibs\BSE.Windows.Forms\bin\Debug\BSE.Windows.Forms.pdb
+E:\MissionPlanner-MissionPlanner1.3.49\MissionPlanner-MissionPlanner1.3.49\ExtLibs\BSE.Windows.Forms\obj\Debug\BSE.Windows.Forms.Properties.Resources.resources
+E:\MissionPlanner-MissionPlanner1.3.49\MissionPlanner-MissionPlanner1.3.49\ExtLibs\BSE.Windows.Forms\obj\Debug\BSE.Windows.Forms.Panel.resources
+E:\MissionPlanner-MissionPlanner1.3.49\MissionPlanner-MissionPlanner1.3.49\ExtLibs\BSE.Windows.Forms\obj\Debug\BSE.Windows.Forms.XPanderPanel.resources
+E:\MissionPlanner-MissionPlanner1.3.49\MissionPlanner-MissionPlanner1.3.49\ExtLibs\BSE.Windows.Forms\obj\Debug\BSE.Windows.Forms.XPanderPanelList.resources
+E:\MissionPlanner-MissionPlanner1.3.49\MissionPlanner-MissionPlanner1.3.49\ExtLibs\BSE.Windows.Forms\obj\Debug\BSE.Windows.Forms.csproj.GenerateResource.cache
+E:\MissionPlanner-MissionPlanner1.3.49\MissionPlanner-MissionPlanner1.3.49\ExtLibs\BSE.Windows.Forms\obj\Debug\BSE.Windows.Forms.csproj.CoreCompileInputs.cache
+E:\MissionPlanner-MissionPlanner1.3.49\MissionPlanner-MissionPlanner1.3.49\ExtLibs\BSE.Windows.Forms\obj\Debug\BSE.Windows.Forms.dll
+E:\MissionPlanner-MissionPlanner1.3.49\MissionPlanner-MissionPlanner1.3.49\ExtLibs\BSE.Windows.Forms\obj\Debug\BSE.Windows.Forms.pdb
+E:\MissionPlanner-MissionPlanner1.3.49\MissionPlanner-MissionPlanner1.3.49\ExtLibs\BSE.Windows.Forms\obj\Debug\BSE.Windows.Forms.csprojResolveAssemblyReference.cache
+E:\MissionPlanner1.3.49(代码注释)\MissionPlanner-MissionPlanner1.3.49\ExtLibs\BSE.Windows.Forms\bin\Debug\BSE.Windows.Forms.XML
+E:\MissionPlanner1.3.49(代码注释)\MissionPlanner-MissionPlanner1.3.49\ExtLibs\BSE.Windows.Forms\bin\Debug\BSE.Windows.Forms.dll
+E:\MissionPlanner1.3.49(代码注释)\MissionPlanner-MissionPlanner1.3.49\ExtLibs\BSE.Windows.Forms\bin\Debug\BSE.Windows.Forms.pdb
+E:\MissionPlanner1.3.49(代码注释)\MissionPlanner-MissionPlanner1.3.49\ExtLibs\BSE.Windows.Forms\obj\Debug\BSE.Windows.Forms.csprojResolveAssemblyReference.cache
+E:\MissionPlanner1.3.49(代码注释)\MissionPlanner-MissionPlanner1.3.49\ExtLibs\BSE.Windows.Forms\obj\Debug\BSE.Windows.Forms.Properties.Resources.resources
+E:\MissionPlanner1.3.49(代码注释)\MissionPlanner-MissionPlanner1.3.49\ExtLibs\BSE.Windows.Forms\obj\Debug\BSE.Windows.Forms.Panel.resources
+E:\MissionPlanner1.3.49(代码注释)\MissionPlanner-MissionPlanner1.3.49\ExtLibs\BSE.Windows.Forms\obj\Debug\BSE.Windows.Forms.XPanderPanel.resources
+E:\MissionPlanner1.3.49(代码注释)\MissionPlanner-MissionPlanner1.3.49\ExtLibs\BSE.Windows.Forms\obj\Debug\BSE.Windows.Forms.XPanderPanelList.resources
+E:\MissionPlanner1.3.49(代码注释)\MissionPlanner-MissionPlanner1.3.49\ExtLibs\BSE.Windows.Forms\obj\Debug\BSE.Windows.Forms.csproj.GenerateResource.cache
+E:\MissionPlanner1.3.49(代码注释)\MissionPlanner-MissionPlanner1.3.49\ExtLibs\BSE.Windows.Forms\obj\Debug\BSE.Windows.Forms.csproj.CoreCompileInputs.cache
+E:\MissionPlanner1.3.49(代码注释)\MissionPlanner-MissionPlanner1.3.49\ExtLibs\BSE.Windows.Forms\obj\Debug\BSE.Windows.Forms.dll
+E:\MissionPlanner1.3.49(代码注释)\MissionPlanner-MissionPlanner1.3.49\ExtLibs\BSE.Windows.Forms\obj\Debug\BSE.Windows.Forms.pdb
+E:\Mission Planner Code Source\MissionPlanner1.3.49(代码注释)\MissionPlanner-MissionPlanner1.3.49\ExtLibs\BSE.Windows.Forms\bin\Debug\BSE.Windows.Forms.XML
+E:\Mission Planner Code Source\MissionPlanner1.3.49(代码注释)\MissionPlanner-MissionPlanner1.3.49\ExtLibs\BSE.Windows.Forms\bin\Debug\BSE.Windows.Forms.dll
+E:\Mission Planner Code Source\MissionPlanner1.3.49(代码注释)\MissionPlanner-MissionPlanner1.3.49\ExtLibs\BSE.Windows.Forms\bin\Debug\BSE.Windows.Forms.pdb
+E:\Mission Planner Code Source\MissionPlanner1.3.49(代码注释)\MissionPlanner-MissionPlanner1.3.49\ExtLibs\BSE.Windows.Forms\obj\Debug\BSE.Windows.Forms.csprojAssemblyReference.cache
+E:\Mission Planner Code Source\MissionPlanner1.3.49(代码注释)\MissionPlanner-MissionPlanner1.3.49\ExtLibs\BSE.Windows.Forms\obj\Debug\BSE.Windows.Forms.Properties.Resources.resources
+E:\Mission Planner Code Source\MissionPlanner1.3.49(代码注释)\MissionPlanner-MissionPlanner1.3.49\ExtLibs\BSE.Windows.Forms\obj\Debug\BSE.Windows.Forms.Panel.resources
+E:\Mission Planner Code Source\MissionPlanner1.3.49(代码注释)\MissionPlanner-MissionPlanner1.3.49\ExtLibs\BSE.Windows.Forms\obj\Debug\BSE.Windows.Forms.XPanderPanel.resources
+E:\Mission Planner Code Source\MissionPlanner1.3.49(代码注释)\MissionPlanner-MissionPlanner1.3.49\ExtLibs\BSE.Windows.Forms\obj\Debug\BSE.Windows.Forms.XPanderPanelList.resources
+E:\Mission Planner Code Source\MissionPlanner1.3.49(代码注释)\MissionPlanner-MissionPlanner1.3.49\ExtLibs\BSE.Windows.Forms\obj\Debug\BSE.Windows.Forms.csproj.GenerateResource.cache
+E:\Mission Planner Code Source\MissionPlanner1.3.49(代码注释)\MissionPlanner-MissionPlanner1.3.49\ExtLibs\BSE.Windows.Forms\obj\Debug\BSE.Windows.Forms.csproj.CoreCompileInputs.cache
+E:\Mission Planner Code Source\MissionPlanner1.3.49(代码注释)\MissionPlanner-MissionPlanner1.3.49\ExtLibs\BSE.Windows.Forms\obj\Debug\BSE.Windows.Forms.dll
+E:\Mission Planner Code Source\MissionPlanner1.3.49(代码注释)\MissionPlanner-MissionPlanner1.3.49\ExtLibs\BSE.Windows.Forms\obj\Debug\BSE.Windows.Forms.pdb
+E:\1515\amovplanner(已完成)\Gmap.net\BSE.Windows.Forms\obj\Debug\BSE.Windows.Forms.dll
+E:\1515\amovplanner(已完成)\Gmap.net\BSE.Windows.Forms\obj\Debug\BSE.Windows.Forms.pdb
