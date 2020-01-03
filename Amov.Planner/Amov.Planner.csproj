@@ -1,0 +1,367 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{55D4F2F3-CC6F-4FB3-9D24-206A22A6A386}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Amov.Planner</RootNamespace>
+    <AssemblyName>Amov.Planner</AssemblyName>
+    <TargetFrameworkVersion>v4.6.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\Output\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>
+    </StartupObject>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Awesomium.Core, Version=1.6.6.0, Culture=neutral, PublicKeyToken=e1a0d7c8071a5214" />
+    <Reference Include="Awesomium.Windows.Forms, Version=1.6.6.0, Culture=neutral, PublicKeyToken=9bd24830fbe304a0, processorArchitecture=x86" />
+    <Reference Include="BitMiracle.LibTiff.NET, Version=2.4.633.0, Culture=neutral, PublicKeyToken=53879b3e20e7a7d6, processorArchitecture=MSIL">
+      <HintPath>..\packages\BitMiracle.LibTiff.NET.2.4.633\lib\net40\BitMiracle.LibTiff.NET.dll</HintPath>
+    </Reference>
+    <Reference Include="CSkin, Version=14.7.2.1, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\CSkin.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Data.v17.2, Version=17.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Map.v17.2.Core, Version=17.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Printing.v17.2.Core, Version=17.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Sparkline.v17.2.Core, Version=17.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Utils.v17.2, Version=17.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraBars.v17.2, Version=17.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraEditors.v17.2, Version=17.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraGauges.v17.2.Core, Version=17.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraGauges.v17.2.Win, Version=17.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraMap.v17.2, Version=17.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraPrinting.v17.2, Version=17.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="ICSharpCode.SharpZipLib, Version=0.85.4.369, Culture=neutral, PublicKeyToken=1b03e6acf1164f73, processorArchitecture=MSIL">
+      <HintPath>..\packages\ICSharpCode.SharpZipLib.dll.0.85.4.369\lib\net20\ICSharpCode.SharpZipLib.dll</HintPath>
+    </Reference>
+    <Reference Include="ProjNet, Version=1.2.4455.27045, Culture=neutral, PublicKeyToken=a1f5bdcd9c6f5740, processorArchitecture=MSIL">
+      <HintPath>..\packages\ProjNet.1.2\lib\net20\ProjNet.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Buffers, Version=4.0.2.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Buffers.4.4.0\lib\netstandard2.0\System.Buffers.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Core" />
+    <Reference Include="System.Memory, Version=4.0.1.1, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Memory.4.5.3\lib\netstandard2.0\System.Memory.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Numerics" />
+    <Reference Include="System.Numerics.Vectors, Version=4.1.4.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Numerics.Vectors.4.5.0\lib\net46\System.Numerics.Vectors.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Reactive.Linq, Version=2.2.4.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\MAVTOOL\bin\Debug\System.Reactive.Linq.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.CompilerServices.Unsafe, Version=4.0.4.1, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Runtime.CompilerServices.Unsafe.4.5.2\lib\netstandard2.0\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Buttonx.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\Icon.cs" />
+    <Compile Include="Controls\Polygon.cs" />
+    <Compile Include="grid\Grid.cs" />
+    <Compile Include="grid\GridPlugin.cs" />
+    <Compile Include="grid\gridui.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="grid\gridui.Designer.cs">
+      <DependentUpon>gridui.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HIL\Matrix3.cs" />
+    <Compile Include="HIL\Utils.cs" />
+    <Compile Include="HIL\Vector3.cs" />
+    <Compile Include="loading.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="loading.Designer.cs">
+      <DependentUpon>loading.cs</DependentUpon>
+    </Compile>
+    <Compile Include="main.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="main.Designer.cs">
+      <DependentUpon>main.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Plugin\Plugin.cs" />
+    <Compile Include="Utilities\DTED.cs" />
+    <Compile Include="Utilities\GeoTiff.cs" />
+    <Compile Include="Utilities\GMapMarkerOverlapCount.cs" />
+    <Compile Include="Utilities\GMapMarkerRallyPt.cs" />
+    <Compile Include="Utilities\ImageProjection.cs" />
+    <Compile Include="Utilities\Rect.cs" />
+    <Compile Include="Utilities\srtm.cs" />
+    <Compile Include="Utilities\utmpos.cs" />
+    <Compile Include="views\ConnectForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="views\ConnectForm.Designer.cs">
+      <DependentUpon>ConnectForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmBaidu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmBaidu.Designer.cs">
+      <DependentUpon>FrmBaidu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GBL_FLAG.cs" />
+    <Compile Include="MyImageCache.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Set.cs" />
+    <Compile Include="SetWayPointClass.cs" />
+    <Compile Include="views\devicecheck.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="views\devicecheck.Designer.cs">
+      <DependentUpon>devicecheck.cs</DependentUpon>
+    </Compile>
+    <Compile Include="views\flightdata.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="views\flightdata.Designer.cs">
+      <DependentUpon>flightdata.cs</DependentUpon>
+    </Compile>
+    <Compile Include="views\flightplanner.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="views\flightplanner.Designer.cs">
+      <DependentUpon>flightplanner.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WayPointList.cs" />
+    <EmbeddedResource Include="grid\gridui.resx">
+      <DependentUpon>gridui.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="loading.resx">
+      <DependentUpon>loading.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="main.resx">
+      <DependentUpon>main.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="views\ConnectForm.resx">
+      <DependentUpon>ConnectForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmBaidu.resx">
+      <DependentUpon>FrmBaidu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="views\devicecheck.resx">
+      <DependentUpon>devicecheck.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="views\flightdata.resx">
+      <DependentUpon>flightdata.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="views\flightplanner.resx">
+      <DependentUpon>flightplanner.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Image1.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bmp\skinButton1.Image.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bmp\skinButton2.Image.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bmp\skinButton3.Image.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bmp\skinButton4.Image.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bmp\skinButton5.Image.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bmp\skinButton6.Image.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bmp\skinButton7.Image.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bmp\skinButton8.DownBack.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bmp\skinButton8.MouseBack.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bmp\skinButton8.NormlBack.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bmp\skinButton9.DownBack.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bmp\skinButton9.MouseBack.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bmp\skinButton9.NormlBack.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bmp\skinMenuStrip1.BaseItemDown.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bmp\skinMenuStrip1.BaseItemMouse.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bmp\skinTabControl1.PageArrowDown.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bmp\skinTabControl1.PageArrowHover.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bmp\skinTabControl1.PageCloseHover.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bmp\skinTabControl1.PageCloseNormal.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bmp\skinTabControl1.PageDown.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bmp\skinTabControl1.PageHover.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bmp\测量工具ToolStripMenuItem.Image.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bmp\工具ToolStripMenuItem.Image.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Amov.Gmap\GMap.NET.Core\GMap.NET.Core.csproj">
+      <Project>{d0c39d9d-bed0-418b-9a5e-713176caf40c}</Project>
+      <Name>GMap.NET.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Amov.Gmap\GMap.NET.WindowsForms\GMap.NET.WindowsForms.csproj">
+      <Project>{e06def77-f933-42fb-afd7-db2d0d8d6a98}</Project>
+      <Name>GMap.NET.WindowsForms</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\GeoUtility\GeoUtility.csproj">
+      <Project>{7f7994ce-823f-4a04-bbea-d0a3808ff56d}</Project>
+      <Name>GeoUtility</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Mavlink\MAVLink.csproj">
+      <Project>{20296734-5F3C-4593-A0D5-DD20B440B13A}</Project>
+      <Name>MAVLink</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MAVTOOL\MAVTOOL.csproj">
+      <Project>{5BF99E99-676B-4DEC-A3F8-5F980AF16748}</Project>
+      <Name>MAVTOOL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ThirdControl\AttitudeInstrument\AttitudeInstrument.csproj">
+      <Project>{2b139bb1-1a26-463c-87a1-9fb9ce9c0bc6}</Project>
+      <Name>AttitudeInstrument</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="CSkin.dll" />
+    <None Include="Resources\marker_02.png" />
+    <None Include="Resources\飞机.png" />
+    <None Include="Resources\yunico.png" />
+    <None Include="Resources\front1.jpg" />
+    <None Include="Resources\left.jpg" />
+    <None Include="Resources\front.jpg" />
+    <None Include="Resources\right.jpg" />
+    <None Include="Resources\小车.png" />
+    <None Include="Resources\home点.png" />
+    <None Include="Resources\清除.png" />
+    <None Include="Resources\写入.png" />
+    <None Include="Resources\居中.png" />
+    <None Include="Resources\自动巡航.png" />
+    <None Include="Resources\系统配置.png" />
+    <None Include="Resources\天线2.png" />
+    <None Include="Resources\天线.png" />
+    <None Include="Resources\起飞.png" />
+    <None Include="Resources\链接22.png" />
+    <None Include="Resources\链接2.png" />
+    <None Include="Resources\链接.png" />
+    <None Include="Resources\降落.png" />
+    <None Include="Resources\航点规划.png" />
+    <None Include="Resources\航点规划%281%29.png" />
+    <None Include="Resources\返航.png" />
+    <None Include="Resources\多机.png" />
+    <None Include="Resources\电池.png" />
+    <None Include="Resources\单机模式.png" />
+    <None Include="Resources\GPS.png" />
+    <None Include="Resources\dark_disconnect_icon.png" />
+    <None Include="Resources\5.HOLD.png" />
+    <None Include="Resources\connect.png" />
+    <None Include="Resources\6.解锁.png" />
+    <None Include="Resources\7.1已解锁.png" />
+    <None Include="Resources\6.1已锁定.png" />
+    <None Include="Resources\01_05.png" />
+    <None Include="Resources\back.jpg" />
+    <None Include="Resources\BGP.jpg" />
+    <None Include="Resources\BGP1.jpg" />
+    <Content Include="Resources\connectbutton.bmp" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Import Project="..\packages\NETStandard.Library.2.0.0\build\netstandard2.0\NETStandard.Library.targets" Condition="Exists('..\packages\NETStandard.Library.2.0.0\build\netstandard2.0\NETStandard.Library.targets')" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>这台计算机上缺少此项目引用的 NuGet 程序包。使用“NuGet 程序包还原”可下载这些程序包。有关更多信息，请参见 http://go.microsoft.com/fwlink/?LinkID=322105。缺少的文件是 {0}。</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\NETStandard.Library.2.0.0\build\netstandard2.0\NETStandard.Library.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\NETStandard.Library.2.0.0\build\netstandard2.0\NETStandard.Library.targets'))" />
+  </Target>
+</Project>

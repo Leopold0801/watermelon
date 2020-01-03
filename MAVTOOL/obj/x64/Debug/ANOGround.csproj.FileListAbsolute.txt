@@ -1,0 +1,17 @@
+F:\MISSIONPLANNER\test\地面站雏形（油气储运V2.0版）\ANOGround\bin\x64\Debug\ANOGround.exe.config
+F:\MISSIONPLANNER\test\地面站雏形（油气储运V2.0版）\ANOGround\obj\x64\Debug\ANOGround.csproj.ResolveComReference.cache
+F:\MISSIONPLANNER\test\地面站雏形（油气储运V2.0版）\ANOGround\obj\x64\Debug\ANOGround.csprojResolveAssemblyReference.cache
+F:\MISSIONPLANNER\test\地面站雏形（油气储运V2.0版）\ANOGround\obj\x64\Debug\ANOGround.Form1.resources
+F:\MISSIONPLANNER\test\地面站雏形（油气储运V2.0版）\ANOGround\obj\x64\Debug\ANOGround.Properties.Resources.resources
+F:\MISSIONPLANNER\test\地面站雏形（油气储运V2.0版）\ANOGround\obj\x64\Debug\ANOGround.csproj.GenerateResource.Cache
+F:\MISSIONPLANNER\test\地面站雏形（油气储运V2.0版）\ANOGround\bin\x64\Debug\ANOGround.exe
+F:\MISSIONPLANNER\test\地面站雏形（油气储运V2.0版）\ANOGround\bin\x64\Debug\ANOGround.pdb
+F:\MISSIONPLANNER\test\地面站雏形（油气储运V2.0版）\ANOGround\bin\x64\Debug\AvionicsInstrumentControlDemo.dll
+F:\MISSIONPLANNER\test\地面站雏形（油气储运V2.0版）\ANOGround\bin\x64\Debug\AxInterop.isAnalogLibrary.dll
+F:\MISSIONPLANNER\test\地面站雏形（油气储运V2.0版）\ANOGround\bin\x64\Debug\GMap.NET.Core.dll
+F:\MISSIONPLANNER\test\地面站雏形（油气储运V2.0版）\ANOGround\bin\x64\Debug\GMap.NET.WindowsForms.dll
+F:\MISSIONPLANNER\test\地面站雏形（油气储运V2.0版）\ANOGround\bin\x64\Debug\MAVLink.dll
+F:\MISSIONPLANNER\test\地面站雏形（油气储运V2.0版）\ANOGround\bin\x64\Debug\AvionicsInstrumentControlDemo.pdb
+F:\MISSIONPLANNER\test\地面站雏形（油气储运V2.0版）\ANOGround\bin\x64\Debug\MAVLink.pdb
+F:\MISSIONPLANNER\test\地面站雏形（油气储运V2.0版）\ANOGround\obj\x64\Debug\ANOGround.exe
+F:\MISSIONPLANNER\test\地面站雏形（油气储运V2.0版）\ANOGround\obj\x64\Debug\ANOGround.pdb
