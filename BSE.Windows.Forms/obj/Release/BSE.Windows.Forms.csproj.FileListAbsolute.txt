@@ -1,9 +1,0 @@
-E:\MissionPlanner-MissionPlanner1.3.49\MissionPlanner-MissionPlanner1.3.49\ExtLibs\BSE.Windows.Forms\bin\Release\BSE.Windows.Forms.dll
-E:\MissionPlanner-MissionPlanner1.3.49\MissionPlanner-MissionPlanner1.3.49\ExtLibs\BSE.Windows.Forms\obj\Release\BSE.Windows.Forms.csprojResolveAssemblyReference.cache
-E:\MissionPlanner-MissionPlanner1.3.49\MissionPlanner-MissionPlanner1.3.49\ExtLibs\BSE.Windows.Forms\obj\Release\BSE.Windows.Forms.Properties.Resources.resources
-E:\MissionPlanner-MissionPlanner1.3.49\MissionPlanner-MissionPlanner1.3.49\ExtLibs\BSE.Windows.Forms\obj\Release\BSE.Windows.Forms.Panel.resources
-E:\MissionPlanner-MissionPlanner1.3.49\MissionPlanner-MissionPlanner1.3.49\ExtLibs\BSE.Windows.Forms\obj\Release\BSE.Windows.Forms.XPanderPanel.resources
-E:\MissionPlanner-MissionPlanner1.3.49\MissionPlanner-MissionPlanner1.3.49\ExtLibs\BSE.Windows.Forms\obj\Release\BSE.Windows.Forms.XPanderPanelList.resources
-E:\MissionPlanner-MissionPlanner1.3.49\MissionPlanner-MissionPlanner1.3.49\ExtLibs\BSE.Windows.Forms\obj\Release\BSE.Windows.Forms.csproj.GenerateResource.cache
-E:\MissionPlanner-MissionPlanner1.3.49\MissionPlanner-MissionPlanner1.3.49\ExtLibs\BSE.Windows.Forms\obj\Release\BSE.Windows.Forms.csproj.CoreCompileInputs.cache
-E:\MissionPlanner-MissionPlanner1.3.49\MissionPlanner-MissionPlanner1.3.49\ExtLibs\BSE.Windows.Forms\obj\Release\BSE.Windows.Forms.dll
