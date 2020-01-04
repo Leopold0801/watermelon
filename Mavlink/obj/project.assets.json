@@ -8,23 +8,23 @@
     ".NETFramework,Version=v4.6.2": []
   },
   "packageFolders": {
-    "C:\\Users\\91974\\.nuget\\packages\\": {},
+    "C:\\Users\\98253\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\BaiduNetdiskDownload\\gityy\\watermelon\\Mavlink\\MAVLink.csproj",
+      "projectUniqueName": "F:\\G\\新建文件夹\\Gmap.net\\Mavlink\\MAVLink.csproj",
       "projectName": "MAVLink",
-      "projectPath": "E:\\BaiduNetdiskDownload\\gityy\\watermelon\\Mavlink\\MAVLink.csproj",
-      "packagesPath": "C:\\Users\\91974\\.nuget\\packages\\",
-      "outputPath": "E:\\BaiduNetdiskDownload\\gityy\\watermelon\\Mavlink\\obj\\",
+      "projectPath": "F:\\G\\新建文件夹\\Gmap.net\\Mavlink\\MAVLink.csproj",
+      "packagesPath": "C:\\Users\\98253\\.nuget\\packages\\",
+      "outputPath": "F:\\G\\新建文件夹\\Gmap.net\\Mavlink\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\91974\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\98253\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
