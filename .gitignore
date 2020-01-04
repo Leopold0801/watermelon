@@ -1,0 +1,4 @@
+# ignore target folder
+Output/
+
+# ignore Eclipse files
