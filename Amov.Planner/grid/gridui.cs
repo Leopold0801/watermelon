@@ -678,7 +678,7 @@ namespace Amov.Planner.grid
             //NUM_split.Value = griddata.splitmission;
 
 
-            NUM_Distance = griddata.dist;
+            NUM_dist.Value = griddata.dist;
             NUM_overshoot = griddata.overshoot1;
             NUM_overshoot2 = griddata.overshoot2;
             NUM_leadin = griddata.leadin;
@@ -778,7 +778,7 @@ namespace Amov.Planner.grid
             // new grid system test
 
             grid = Grid.CreateGrid(list, CurrentState.fromDistDisplayUnit((double)NUM_altitude.Value),
-                (double)NUM_Distance, (double)NUM_spacing, (double)NUM_angle.Value,
+                (double)NUM_dist.Value, (double)NUM_spacing, (double)NUM_angle.Value,
                 (double)NUM_overshoot, (double)NUM_overshoot2,
                 (Grid.StartPosition)Enum.Parse(typeof(Grid.StartPosition), CMB_startfrom.Text), false,
                 (float)NUM_Lane_Dist, (float)NUM_leadin);
