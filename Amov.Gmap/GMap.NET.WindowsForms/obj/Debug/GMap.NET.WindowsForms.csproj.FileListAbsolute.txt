@@ -137,3 +137,17 @@ E:\BaiduNetdiskDownload\amovplanner(已完成)\Gmap.net\Amov.Gmap\GMap.NET.Windo
 E:\BaiduNetdiskDownload\amovplanner(已完成)\Gmap.net\Amov.Gmap\GMap.NET.WindowsForms\obj\Debug\GMap.NET.WindowsForms.csproj.CopyComplete
 E:\BaiduNetdiskDownload\amovplanner(已完成)\Gmap.net\Amov.Gmap\GMap.NET.WindowsForms\obj\Debug\GMap.NET.WindowsForms.dll
 E:\BaiduNetdiskDownload\amovplanner(已完成)\Gmap.net\Amov.Gmap\GMap.NET.WindowsForms\obj\Debug\GMap.NET.WindowsForms.pdb
+F:\G\新建文件夹\planner\watermelon\Amov.Gmap\GMap.NET.WindowsForms\bin\Debug\GMap.NET.WindowsForms.dll
+F:\G\新建文件夹\planner\watermelon\Amov.Gmap\GMap.NET.WindowsForms\bin\Debug\GMap.NET.WindowsForms.pdb
+F:\G\新建文件夹\planner\watermelon\Amov.Gmap\GMap.NET.WindowsForms\bin\Debug\GMap.NET.Core.dll
+F:\G\新建文件夹\planner\watermelon\Amov.Gmap\GMap.NET.WindowsForms\bin\Debug\System.Data.SqlServerCe.dll
+F:\G\新建文件夹\planner\watermelon\Amov.Gmap\GMap.NET.WindowsForms\bin\Debug\GMap.NET.Core.pdb
+F:\G\新建文件夹\planner\watermelon\Amov.Gmap\GMap.NET.WindowsForms\bin\Debug\zh-Hans\GMap.NET.Core.resources.dll
+F:\G\新建文件夹\planner\watermelon\Amov.Gmap\GMap.NET.WindowsForms\obj\Debug\GMap.NET.WindowsForms.csprojAssemblyReference.cache
+F:\G\新建文件夹\planner\watermelon\Amov.Gmap\GMap.NET.WindowsForms\obj\Debug\GMap.NET.TilePrefetcher.resources
+F:\G\新建文件夹\planner\watermelon\Amov.Gmap\GMap.NET.WindowsForms\obj\Debug\System.Windows.Forms.Properties.Resources.resources
+F:\G\新建文件夹\planner\watermelon\Amov.Gmap\GMap.NET.WindowsForms\obj\Debug\GMap.NET.WindowsForms.csproj.GenerateResource.cache
+F:\G\新建文件夹\planner\watermelon\Amov.Gmap\GMap.NET.WindowsForms\obj\Debug\GMap.NET.WindowsForms.csproj.CoreCompileInputs.cache
+F:\G\新建文件夹\planner\watermelon\Amov.Gmap\GMap.NET.WindowsForms\obj\Debug\GMap.NET.WindowsForms.csproj.CopyComplete
+F:\G\新建文件夹\planner\watermelon\Amov.Gmap\GMap.NET.WindowsForms\obj\Debug\GMap.NET.WindowsForms.dll
+F:\G\新建文件夹\planner\watermelon\Amov.Gmap\GMap.NET.WindowsForms\obj\Debug\GMap.NET.WindowsForms.pdb

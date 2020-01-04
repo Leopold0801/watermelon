@@ -139,3 +139,9 @@ E:\BaiduNetdiskDownload\amovplanner(已完成)\Gmap.net\Mavlink\obj\Debug\net462
 E:\BaiduNetdiskDownload\amovplanner(已完成)\Gmap.net\Mavlink\obj\Debug\net462\MAVLink.AssemblyInfoInputs.cache
 E:\BaiduNetdiskDownload\amovplanner(已完成)\Gmap.net\Mavlink\obj\Debug\net462\MAVLink.AssemblyInfo.cs
 E:\BaiduNetdiskDownload\amovplanner(已完成)\Gmap.net\Mavlink\obj\Debug\net462\MAVLink.dll
+F:\G\新建文件夹\planner\watermelon\Mavlink\bin\Debug\net462\MAVLink.dll
+F:\G\新建文件夹\planner\watermelon\Mavlink\obj\Debug\net462\MAVLink.csprojAssemblyReference.cache
+F:\G\新建文件夹\planner\watermelon\Mavlink\obj\Debug\net462\MAVLink.csproj.CoreCompileInputs.cache
+F:\G\新建文件夹\planner\watermelon\Mavlink\obj\Debug\net462\MAVLink.AssemblyInfoInputs.cache
+F:\G\新建文件夹\planner\watermelon\Mavlink\obj\Debug\net462\MAVLink.AssemblyInfo.cs
+F:\G\新建文件夹\planner\watermelon\Mavlink\obj\Debug\net462\MAVLink.dll

@@ -12,6 +12,6 @@
     </dependencies>
   </metadata>
   <files>
-    <file src="E:\BaiduNetdiskDownload\amovplanner(已完成)\Gmap.net\Mavlink\bin\Debug\net462\MAVLink.dll" target="lib\net462\MAVLink.dll" />
+    <file src="F:\G\新建文件夹\planner\watermelon\Mavlink\bin\Debug\net462\MAVLink.dll" target="lib\net462\MAVLink.dll" />
   </files>
 </package>
