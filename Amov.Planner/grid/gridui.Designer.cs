@@ -57,6 +57,9 @@
             this.label22 = new System.Windows.Forms.Label();
             this.lbl_area = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.NUM_dist = new System.Windows.Forms.NumericUpDown();
+            this.CHK_markers = new System.Windows.Forms.CheckBox();
+            this.chk_crossgrid = new System.Windows.Forms.CheckBox();
             this.CHK_footprints = new System.Windows.Forms.CheckBox();
             this.label8 = new System.Windows.Forms.Label();
             this.label15 = new System.Windows.Forms.Label();
@@ -84,13 +87,13 @@
             this.label13 = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
             this.FlightPlanner_TrackBar = new MAVTOOL.Controls.MyTrackBar();
-            this.chk_crossgrid = new System.Windows.Forms.CheckBox();
-            this.CHK_markers = new System.Windows.Forms.CheckBox();
+            this.label2 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.NUM_dist)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.num_overlap)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.num_sidelap)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.NUM_angle)).BeginInit();
@@ -415,6 +418,8 @@
             // 
             // groupBox1
             // 
+            this.groupBox1.Controls.Add(this.label2);
+            this.groupBox1.Controls.Add(this.NUM_dist);
             this.groupBox1.Controls.Add(this.CHK_markers);
             this.groupBox1.Controls.Add(this.chk_crossgrid);
             this.groupBox1.Controls.Add(this.CHK_footprints);
@@ -438,11 +443,45 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "航测配置";
             // 
+            // NUM_dist
+            // 
+            this.NUM_dist.DecimalPlaces = 1;
+            this.NUM_dist.Location = new System.Drawing.Point(157, 220);
+            this.NUM_dist.Name = "NUM_dist";
+            this.NUM_dist.Size = new System.Drawing.Size(51, 25);
+            this.NUM_dist.TabIndex = 67;
+            this.NUM_dist.Value = new decimal(new int[] {
+            100,
+            0,
+            0,
+            0});
+            this.NUM_dist.ValueChanged += new System.EventHandler(this.domainUpDown1_ValueChanged);
+            // 
+            // CHK_markers
+            // 
+            this.CHK_markers.AutoSize = true;
+            this.CHK_markers.Location = new System.Drawing.Point(135, 346);
+            this.CHK_markers.Name = "CHK_markers";
+            this.CHK_markers.Size = new System.Drawing.Size(59, 19);
+            this.CHK_markers.TabIndex = 66;
+            this.CHK_markers.Text = "航点";
+            this.CHK_markers.UseVisualStyleBackColor = true;
+            // 
+            // chk_crossgrid
+            // 
+            this.chk_crossgrid.AutoSize = true;
+            this.chk_crossgrid.Location = new System.Drawing.Point(134, 274);
+            this.chk_crossgrid.Name = "chk_crossgrid";
+            this.chk_crossgrid.Size = new System.Drawing.Size(89, 19);
+            this.chk_crossgrid.TabIndex = 65;
+            this.chk_crossgrid.Text = "十字航线";
+            this.chk_crossgrid.UseVisualStyleBackColor = true;
+            // 
             // CHK_footprints
             // 
             this.CHK_footprints.AutoSize = true;
             this.CHK_footprints.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.CHK_footprints.Location = new System.Drawing.Point(119, 266);
+            this.CHK_footprints.Location = new System.Drawing.Point(134, 309);
             this.CHK_footprints.Name = "CHK_footprints";
             this.CHK_footprints.Size = new System.Drawing.Size(89, 19);
             this.CHK_footprints.TabIndex = 64;
@@ -481,6 +520,7 @@
             0,
             0,
             0});
+            this.num_overlap.ValueChanged += new System.EventHandler(this.domainUpDown1_ValueChanged);
             // 
             // num_sidelap
             // 
@@ -494,6 +534,7 @@
             0,
             0,
             0});
+            this.num_sidelap.ValueChanged += new System.EventHandler(this.domainUpDown1_ValueChanged);
             // 
             // label4
             // 
@@ -516,6 +557,7 @@
             this.NUM_angle.Name = "NUM_angle";
             this.NUM_angle.Size = new System.Drawing.Size(51, 25);
             this.NUM_angle.TabIndex = 53;
+            this.NUM_angle.ValueChanged += new System.EventHandler(this.domainUpDown1_ValueChanged);
             // 
             // NUM_altitude
             // 
@@ -543,6 +585,7 @@
             0,
             0,
             0});
+            this.NUM_altitude.ValueChanged += new System.EventHandler(this.domainUpDown1_ValueChanged);
             // 
             // label1
             // 
@@ -561,6 +604,7 @@
             this.CMB_startfrom.Name = "CMB_startfrom";
             this.CMB_startfrom.Size = new System.Drawing.Size(92, 23);
             this.CMB_startfrom.TabIndex = 49;
+            this.CMB_startfrom.SelectedIndexChanged += new System.EventHandler(this.domainUpDown1_ValueChanged);
             // 
             // label6
             // 
@@ -758,25 +802,15 @@
             this.FlightPlanner_TrackBar.TickFrequency = 0.001F;
             this.FlightPlanner_TrackBar.Value = 0F;
             // 
-            // chk_crossgrid
+            // label2
             // 
-            this.chk_crossgrid.AutoSize = true;
-            this.chk_crossgrid.Location = new System.Drawing.Point(119, 231);
-            this.chk_crossgrid.Name = "chk_crossgrid";
-            this.chk_crossgrid.Size = new System.Drawing.Size(89, 19);
-            this.chk_crossgrid.TabIndex = 65;
-            this.chk_crossgrid.Text = "十字航线";
-            this.chk_crossgrid.UseVisualStyleBackColor = true;
-            // 
-            // CHK_markers
-            // 
-            this.CHK_markers.AutoSize = true;
-            this.CHK_markers.Location = new System.Drawing.Point(120, 303);
-            this.CHK_markers.Name = "CHK_markers";
-            this.CHK_markers.Size = new System.Drawing.Size(59, 19);
-            this.CHK_markers.TabIndex = 66;
-            this.CHK_markers.Text = "航点";
-            this.CHK_markers.UseVisualStyleBackColor = true;
+            this.label2.AutoSize = true;
+            this.label2.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.label2.Location = new System.Drawing.Point(24, 220);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(91, 15);
+            this.label2.TabIndex = 68;
+            this.label2.Text = "航带间距[m]";
             // 
             // gridui
             // 
@@ -796,6 +830,7 @@
             this.groupBox2.PerformLayout();
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.NUM_dist)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.num_overlap)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.num_sidelap)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.NUM_angle)).EndInit();
@@ -869,5 +904,7 @@
         private System.Windows.Forms.CheckBox CHK_footprints;
         private System.Windows.Forms.CheckBox chk_crossgrid;
         private System.Windows.Forms.CheckBox CHK_markers;
+        private System.Windows.Forms.NumericUpDown NUM_dist;
+        private System.Windows.Forms.Label label2;
     }
 }

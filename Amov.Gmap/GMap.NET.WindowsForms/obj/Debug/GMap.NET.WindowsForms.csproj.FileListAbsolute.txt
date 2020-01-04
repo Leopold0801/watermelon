@@ -137,3 +137,17 @@ E:\BaiduNetdiskDownload\amovplanner(已完成)\Gmap.net\Amov.Gmap\GMap.NET.Windo
 E:\BaiduNetdiskDownload\amovplanner(已完成)\Gmap.net\Amov.Gmap\GMap.NET.WindowsForms\obj\Debug\GMap.NET.WindowsForms.csproj.CopyComplete
 E:\BaiduNetdiskDownload\amovplanner(已完成)\Gmap.net\Amov.Gmap\GMap.NET.WindowsForms\obj\Debug\GMap.NET.WindowsForms.dll
 E:\BaiduNetdiskDownload\amovplanner(已完成)\Gmap.net\Amov.Gmap\GMap.NET.WindowsForms\obj\Debug\GMap.NET.WindowsForms.pdb
+E:\BaiduNetdiskDownload\gityy\watermelon\Amov.Gmap\GMap.NET.WindowsForms\bin\Debug\GMap.NET.WindowsForms.dll
+E:\BaiduNetdiskDownload\gityy\watermelon\Amov.Gmap\GMap.NET.WindowsForms\bin\Debug\GMap.NET.WindowsForms.pdb
+E:\BaiduNetdiskDownload\gityy\watermelon\Amov.Gmap\GMap.NET.WindowsForms\bin\Debug\GMap.NET.Core.dll
+E:\BaiduNetdiskDownload\gityy\watermelon\Amov.Gmap\GMap.NET.WindowsForms\bin\Debug\System.Data.SqlServerCe.dll
+E:\BaiduNetdiskDownload\gityy\watermelon\Amov.Gmap\GMap.NET.WindowsForms\bin\Debug\GMap.NET.Core.pdb
+E:\BaiduNetdiskDownload\gityy\watermelon\Amov.Gmap\GMap.NET.WindowsForms\bin\Debug\zh-Hans\GMap.NET.Core.resources.dll
+E:\BaiduNetdiskDownload\gityy\watermelon\Amov.Gmap\GMap.NET.WindowsForms\obj\Debug\GMap.NET.WindowsForms.csprojAssemblyReference.cache
+E:\BaiduNetdiskDownload\gityy\watermelon\Amov.Gmap\GMap.NET.WindowsForms\obj\Debug\GMap.NET.TilePrefetcher.resources
+E:\BaiduNetdiskDownload\gityy\watermelon\Amov.Gmap\GMap.NET.WindowsForms\obj\Debug\System.Windows.Forms.Properties.Resources.resources
+E:\BaiduNetdiskDownload\gityy\watermelon\Amov.Gmap\GMap.NET.WindowsForms\obj\Debug\GMap.NET.WindowsForms.csproj.GenerateResource.cache
+E:\BaiduNetdiskDownload\gityy\watermelon\Amov.Gmap\GMap.NET.WindowsForms\obj\Debug\GMap.NET.WindowsForms.csproj.CoreCompileInputs.cache
+E:\BaiduNetdiskDownload\gityy\watermelon\Amov.Gmap\GMap.NET.WindowsForms\obj\Debug\GMap.NET.WindowsForms.csproj.CopyComplete
+E:\BaiduNetdiskDownload\gityy\watermelon\Amov.Gmap\GMap.NET.WindowsForms\obj\Debug\GMap.NET.WindowsForms.dll
+E:\BaiduNetdiskDownload\gityy\watermelon\Amov.Gmap\GMap.NET.WindowsForms\obj\Debug\GMap.NET.WindowsForms.pdb

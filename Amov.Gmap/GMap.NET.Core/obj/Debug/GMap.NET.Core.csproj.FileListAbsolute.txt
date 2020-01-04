@@ -134,3 +134,17 @@ E:\BaiduNetdiskDownload\amovplanner(已完成)\Gmap.net\Amov.Gmap\GMap.NET.Core\
 E:\BaiduNetdiskDownload\amovplanner(已完成)\Gmap.net\Amov.Gmap\GMap.NET.Core\obj\Debug\GMap.NET.Core.csproj.CopyComplete
 E:\BaiduNetdiskDownload\amovplanner(已完成)\Gmap.net\Amov.Gmap\GMap.NET.Core\obj\Debug\GMap.NET.Core.dll
 E:\BaiduNetdiskDownload\amovplanner(已完成)\Gmap.net\Amov.Gmap\GMap.NET.Core\obj\Debug\GMap.NET.Core.pdb
+E:\BaiduNetdiskDownload\gityy\watermelon\Amov.Gmap\GMap.NET.Core\bin\Debug\GMap.NET.Core.dll
+E:\BaiduNetdiskDownload\gityy\watermelon\Amov.Gmap\GMap.NET.Core\bin\Debug\GMap.NET.Core.pdb
+E:\BaiduNetdiskDownload\gityy\watermelon\Amov.Gmap\GMap.NET.Core\bin\Debug\zh-Hans\GMap.NET.Core.resources.dll
+E:\BaiduNetdiskDownload\gityy\watermelon\Amov.Gmap\GMap.NET.Core\bin\Debug\System.Data.SqlServerCe.dll
+E:\BaiduNetdiskDownload\gityy\watermelon\Amov.Gmap\GMap.NET.Core\obj\Debug\GMap.NET.Core.csprojAssemblyReference.cache
+E:\BaiduNetdiskDownload\gityy\watermelon\Amov.Gmap\GMap.NET.Core\obj\Debug\GMap.NET.Properties.Resources.resources
+E:\BaiduNetdiskDownload\gityy\watermelon\Amov.Gmap\GMap.NET.Core\obj\Debug\GMap.NET.Resources.Strings.resources
+E:\BaiduNetdiskDownload\gityy\watermelon\Amov.Gmap\GMap.NET.Core\obj\Debug\GMap.NET.Resources.Strings.zh-Hans.resources
+E:\BaiduNetdiskDownload\gityy\watermelon\Amov.Gmap\GMap.NET.Core\obj\Debug\GMap.NET.Core.csproj.GenerateResource.cache
+E:\BaiduNetdiskDownload\gityy\watermelon\Amov.Gmap\GMap.NET.Core\obj\Debug\GMap.NET.Core.csproj.CoreCompileInputs.cache
+E:\BaiduNetdiskDownload\gityy\watermelon\Amov.Gmap\GMap.NET.Core\obj\Debug\zh-Hans\GMap.NET.Core.resources.dll
+E:\BaiduNetdiskDownload\gityy\watermelon\Amov.Gmap\GMap.NET.Core\obj\Debug\GMap.NET.Core.csproj.CopyComplete
+E:\BaiduNetdiskDownload\gityy\watermelon\Amov.Gmap\GMap.NET.Core\obj\Debug\GMap.NET.Core.dll
+E:\BaiduNetdiskDownload\gityy\watermelon\Amov.Gmap\GMap.NET.Core\obj\Debug\GMap.NET.Core.pdb

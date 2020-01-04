@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\BaiduNetdiskDownload\\amovplanner(已完成)\\Gmap.net\\Mavlink\\MAVLink.csproj",
+      "projectUniqueName": "E:\\BaiduNetdiskDownload\\gityy\\watermelon\\Mavlink\\MAVLink.csproj",
       "projectName": "MAVLink",
-      "projectPath": "E:\\BaiduNetdiskDownload\\amovplanner(已完成)\\Gmap.net\\Mavlink\\MAVLink.csproj",
+      "projectPath": "E:\\BaiduNetdiskDownload\\gityy\\watermelon\\Mavlink\\MAVLink.csproj",
       "packagesPath": "C:\\Users\\91974\\.nuget\\packages\\",
-      "outputPath": "E:\\BaiduNetdiskDownload\\amovplanner(已完成)\\Gmap.net\\Mavlink\\obj\\",
+      "outputPath": "E:\\BaiduNetdiskDownload\\gityy\\watermelon\\Mavlink\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
