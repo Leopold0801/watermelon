@@ -1,0 +1,7 @@
+#ignore floder
+Output/
+Debug/
+.vs/
+
+#ignore files
+
