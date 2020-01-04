@@ -145,7 +145,7 @@
             this.gMapControl.HelperLineOption = GMap.NET.WindowsForms.HelperLineOptions.DontShow;
             this.gMapControl.LevelsKeepInMemmory = 5;
             this.gMapControl.Location = new System.Drawing.Point(0, 0);
-            this.gMapControl.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.gMapControl.Margin = new System.Windows.Forms.Padding(2);
             this.gMapControl.MarkersEnabled = true;
             this.gMapControl.MaxZoom = 2;
             this.gMapControl.MinZoom = 2;
@@ -189,7 +189,7 @@
             this.panel1.Controls.Add(this.comboBox1);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.panel1.Location = new System.Drawing.Point(150, 221);
-            this.panel1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panel1.Margin = new System.Windows.Forms.Padding(2);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(445, 200);
             this.panel1.TabIndex = 1;
@@ -198,7 +198,7 @@
             // 
             this.checkBox2.AutoSize = true;
             this.checkBox2.Location = new System.Drawing.Point(224, 24);
-            this.checkBox2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.checkBox2.Margin = new System.Windows.Forms.Padding(2);
             this.checkBox2.Name = "checkBox2";
             this.checkBox2.Size = new System.Drawing.Size(48, 16);
             this.checkBox2.TabIndex = 75;
@@ -210,7 +210,7 @@
             // 
             this.checkBox1.AutoSize = true;
             this.checkBox1.Location = new System.Drawing.Point(224, 4);
-            this.checkBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.checkBox1.Margin = new System.Windows.Forms.Padding(2);
             this.checkBox1.Name = "checkBox1";
             this.checkBox1.Size = new System.Drawing.Size(48, 16);
             this.checkBox1.TabIndex = 74;
@@ -311,7 +311,7 @@
             // TXT_DefaultAlt
             // 
             this.TXT_DefaultAlt.Location = new System.Drawing.Point(182, 6);
-            this.TXT_DefaultAlt.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.TXT_DefaultAlt.Margin = new System.Windows.Forms.Padding(2);
             this.TXT_DefaultAlt.Name = "TXT_DefaultAlt";
             this.TXT_DefaultAlt.Size = new System.Drawing.Size(31, 21);
             this.TXT_DefaultAlt.TabIndex = 62;
@@ -330,7 +330,7 @@
             // TXT_WPRad
             // 
             this.TXT_WPRad.Location = new System.Drawing.Point(64, 4);
-            this.TXT_WPRad.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.TXT_WPRad.Margin = new System.Windows.Forms.Padding(2);
             this.TXT_WPRad.Name = "TXT_WPRad";
             this.TXT_WPRad.Size = new System.Drawing.Size(28, 21);
             this.TXT_WPRad.TabIndex = 61;
@@ -372,7 +372,7 @@
             this.Down,
             this.Delete});
             this.Commands.Location = new System.Drawing.Point(0, 52);
-            this.Commands.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Commands.Margin = new System.Windows.Forms.Padding(2);
             this.Commands.Name = "Commands";
             this.Commands.RowTemplate.Height = 27;
             this.Commands.Size = new System.Drawing.Size(640, 143);
@@ -537,7 +537,7 @@
             "GoogleChinaSatelliteMapProvider",
             "AMapProvider"});
             this.comboBox1.Location = new System.Drawing.Point(353, 0);
-            this.comboBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.comboBox1.Margin = new System.Windows.Forms.Padding(2);
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(92, 20);
             this.comboBox1.TabIndex = 0;
@@ -549,7 +549,7 @@
             this.tabControl1.Controls.Add(this.tabPage2);
             this.tabControl1.Dock = System.Windows.Forms.DockStyle.Left;
             this.tabControl1.Location = new System.Drawing.Point(0, 0);
-            this.tabControl1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.tabControl1.Margin = new System.Windows.Forms.Padding(2);
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
             this.tabControl1.Size = new System.Drawing.Size(150, 421);
@@ -563,9 +563,9 @@
             this.tabPage1.Controls.Add(this.but_Drawarea);
             this.tabPage1.Controls.Add(this.but_Quickdraw);
             this.tabPage1.Location = new System.Drawing.Point(4, 22);
-            this.tabPage1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.tabPage1.Margin = new System.Windows.Forms.Padding(2);
             this.tabPage1.Name = "tabPage1";
-            this.tabPage1.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.tabPage1.Padding = new System.Windows.Forms.Padding(2);
             this.tabPage1.Size = new System.Drawing.Size(142, 395);
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "测绘";
@@ -574,7 +574,7 @@
             // but_Clearroutes
             // 
             this.but_Clearroutes.Location = new System.Drawing.Point(32, 201);
-            this.but_Clearroutes.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.but_Clearroutes.Margin = new System.Windows.Forms.Padding(2);
             this.but_Clearroutes.Name = "but_Clearroutes";
             this.but_Clearroutes.Size = new System.Drawing.Size(70, 25);
             this.but_Clearroutes.TabIndex = 4;
@@ -585,7 +585,7 @@
             // but_Measuringconfig
             // 
             this.but_Measuringconfig.Location = new System.Drawing.Point(32, 154);
-            this.but_Measuringconfig.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.but_Measuringconfig.Margin = new System.Windows.Forms.Padding(2);
             this.but_Measuringconfig.Name = "but_Measuringconfig";
             this.but_Measuringconfig.Size = new System.Drawing.Size(70, 25);
             this.but_Measuringconfig.TabIndex = 3;
@@ -596,7 +596,7 @@
             // but_Cleararea
             // 
             this.but_Cleararea.Location = new System.Drawing.Point(32, 107);
-            this.but_Cleararea.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.but_Cleararea.Margin = new System.Windows.Forms.Padding(2);
             this.but_Cleararea.Name = "but_Cleararea";
             this.but_Cleararea.Size = new System.Drawing.Size(70, 25);
             this.but_Cleararea.TabIndex = 2;
@@ -607,7 +607,7 @@
             // but_Drawarea
             // 
             this.but_Drawarea.Location = new System.Drawing.Point(32, 62);
-            this.but_Drawarea.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.but_Drawarea.Margin = new System.Windows.Forms.Padding(2);
             this.but_Drawarea.Name = "but_Drawarea";
             this.but_Drawarea.Size = new System.Drawing.Size(70, 25);
             this.but_Drawarea.TabIndex = 1;
@@ -618,7 +618,7 @@
             // but_Quickdraw
             // 
             this.but_Quickdraw.Location = new System.Drawing.Point(32, 19);
-            this.but_Quickdraw.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.but_Quickdraw.Margin = new System.Windows.Forms.Padding(2);
             this.but_Quickdraw.Name = "but_Quickdraw";
             this.but_Quickdraw.Size = new System.Drawing.Size(70, 25);
             this.but_Quickdraw.TabIndex = 0;
@@ -635,9 +635,9 @@
             this.tabPage2.Controls.Add(this.but_Homelocation);
             this.tabPage2.Controls.Add(this.but_wpread);
             this.tabPage2.Location = new System.Drawing.Point(4, 22);
-            this.tabPage2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.tabPage2.Margin = new System.Windows.Forms.Padding(2);
             this.tabPage2.Name = "tabPage2";
-            this.tabPage2.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.tabPage2.Padding = new System.Windows.Forms.Padding(2);
             this.tabPage2.Size = new System.Drawing.Size(142, 395);
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "航线";
@@ -646,7 +646,7 @@
             // but_Loadfile
             // 
             this.but_Loadfile.Location = new System.Drawing.Point(32, 223);
-            this.but_Loadfile.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.but_Loadfile.Margin = new System.Windows.Forms.Padding(2);
             this.but_Loadfile.Name = "but_Loadfile";
             this.but_Loadfile.Size = new System.Drawing.Size(68, 25);
             this.but_Loadfile.TabIndex = 7;
@@ -656,7 +656,7 @@
             // but_Savefile
             // 
             this.but_Savefile.Location = new System.Drawing.Point(32, 183);
-            this.but_Savefile.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.but_Savefile.Margin = new System.Windows.Forms.Padding(2);
             this.but_Savefile.Name = "but_Savefile";
             this.but_Savefile.Size = new System.Drawing.Size(68, 25);
             this.but_Savefile.TabIndex = 6;
@@ -666,7 +666,7 @@
             // but_Writewp
             // 
             this.but_Writewp.Location = new System.Drawing.Point(32, 140);
-            this.but_Writewp.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.but_Writewp.Margin = new System.Windows.Forms.Padding(2);
             this.but_Writewp.Name = "but_Writewp";
             this.but_Writewp.Size = new System.Drawing.Size(68, 25);
             this.but_Writewp.TabIndex = 5;
@@ -677,7 +677,7 @@
             // but_Updatelocation
             // 
             this.but_Updatelocation.Location = new System.Drawing.Point(32, 58);
-            this.but_Updatelocation.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.but_Updatelocation.Margin = new System.Windows.Forms.Padding(2);
             this.but_Updatelocation.Name = "but_Updatelocation";
             this.but_Updatelocation.Size = new System.Drawing.Size(68, 25);
             this.but_Updatelocation.TabIndex = 4;
@@ -687,7 +687,7 @@
             // but_Homelocation
             // 
             this.but_Homelocation.Location = new System.Drawing.Point(32, 17);
-            this.but_Homelocation.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.but_Homelocation.Margin = new System.Windows.Forms.Padding(2);
             this.but_Homelocation.Name = "but_Homelocation";
             this.but_Homelocation.Size = new System.Drawing.Size(68, 25);
             this.but_Homelocation.TabIndex = 3;
@@ -698,7 +698,7 @@
             // but_wpread
             // 
             this.but_wpread.Location = new System.Drawing.Point(32, 98);
-            this.but_wpread.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.but_wpread.Margin = new System.Windows.Forms.Padding(2);
             this.but_wpread.Name = "but_wpread";
             this.but_wpread.Size = new System.Drawing.Size(68, 25);
             this.but_wpread.TabIndex = 2;
@@ -733,7 +733,7 @@
             this.FlightPlanner_TrackBar.Dock = System.Windows.Forms.DockStyle.Right;
             this.FlightPlanner_TrackBar.LargeChange = 0.005F;
             this.FlightPlanner_TrackBar.Location = new System.Drawing.Point(595, 0);
-            this.FlightPlanner_TrackBar.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.FlightPlanner_TrackBar.Margin = new System.Windows.Forms.Padding(2);
             this.FlightPlanner_TrackBar.Maximum = 0.01F;
             this.FlightPlanner_TrackBar.Minimum = 0F;
             this.FlightPlanner_TrackBar.Name = "FlightPlanner_TrackBar";
@@ -972,7 +972,7 @@
             this.Controls.Add(this.lab_N);
             this.Controls.Add(this.tabControl1);
             this.Controls.Add(this.gMapControl);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "flightplanner";
             this.Size = new System.Drawing.Size(640, 421);
             this.Load += new System.EventHandler(this.flightplanner_Load);
