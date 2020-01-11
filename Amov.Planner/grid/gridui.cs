@@ -767,6 +767,7 @@ namespace Amov.Planner.grid
         float routetotal = 0;
         private void domainUpDown1_ValueChanged(object sender, EventArgs e)
         {
+          
             if (loading)
                 return;
 
@@ -802,15 +803,16 @@ namespace Amov.Planner.grid
                 Grid.StartPointLatLngAlt = grid[grid.Count - 1];
 
                 grid.AddRange(Grid.CreateGrid(list, CurrentState.fromDistDisplayUnit((double)NUM_altitude.Value),
-                    (double)NUM_Distance, (double)NUM_spacing, (double)NUM_angle.Value + 90.0,
+                    (double)NUM_dist.Value, (double)NUM_spacing, (double)NUM_angle.Value + 90.0,
                     (double)NUM_overshoot, (double)NUM_overshoot2,
                     Grid.StartPosition.Point, false,
                     (float)NUM_Lane_Dist, (float)NUM_leadin));
             }
 
-            //if (CHK_boundary.Checked)
-            AddDrawPolygon();
-
+            if (CHK_boundary.Checked)
+            {
+                AddDrawPolygon();
+            }
             int strips = 0;
             int images = 0;
             int a = 1;
@@ -1080,6 +1082,18 @@ namespace Amov.Planner.grid
             {
                 return secs.ToString("0.00") + " Seconds";
             }
+        }
+
+        private void chk_crossgrid_CheckedChanged(object sender, EventArgs e)
+        {
+            // add crossover
+            Grid.StartPointLatLngAlt = grid[grid.Count - 1];
+
+            grid.AddRange(Grid.CreateGrid(list, CurrentState.fromDistDisplayUnit((double)NUM_altitude.Value),
+                (double)NUM_dist.Value, (double)NUM_spacing, (double)NUM_angle.Value + 90.0,
+                (double)NUM_overshoot, (double)NUM_overshoot2,
+                Grid.StartPosition.Point, false,
+                (float)NUM_Lane_Dist, (float)NUM_leadin));
         }
     } 
 }

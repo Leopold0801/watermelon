@@ -57,6 +57,7 @@
             this.label22 = new System.Windows.Forms.Label();
             this.lbl_area = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.label2 = new System.Windows.Forms.Label();
             this.NUM_dist = new System.Windows.Forms.NumericUpDown();
             this.CHK_markers = new System.Windows.Forms.CheckBox();
             this.chk_crossgrid = new System.Windows.Forms.CheckBox();
@@ -87,7 +88,7 @@
             this.label13 = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
             this.FlightPlanner_TrackBar = new MAVTOOL.Controls.MyTrackBar();
-            this.label2 = new System.Windows.Forms.Label();
+            this.CHK_boundary = new System.Windows.Forms.CheckBox();
             this.panel1.SuspendLayout();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
@@ -114,6 +115,7 @@
             this.map.HelperLineOption = GMap.NET.WindowsForms.HelperLineOptions.DontShow;
             this.map.LevelsKeepInMemmory = 5;
             this.map.Location = new System.Drawing.Point(4, 32);
+            this.map.Margin = new System.Windows.Forms.Padding(2);
             this.map.MarkersEnabled = true;
             this.map.MaxZoom = 2;
             this.map.MinZoom = 2;
@@ -127,7 +129,7 @@
             this.map.SelectedArea = ((GMap.NET.RectLatLng)(resources.GetObject("map.SelectedArea")));
             this.map.SelectedAreaFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(65)))), ((int)(((byte)(105)))), ((int)(((byte)(225)))));
             this.map.ShowTileGridLines = false;
-            this.map.Size = new System.Drawing.Size(1058, 917);
+            this.map.Size = new System.Drawing.Size(792, 651);
             this.map.TabIndex = 0;
             this.map.Zoom = 0D;
             this.map.Load += new System.EventHandler(this.map_Load);
@@ -136,9 +138,10 @@
             // 
             this.panel1.Controls.Add(this.tabControl1);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Right;
-            this.panel1.Location = new System.Drawing.Point(730, 32);
+            this.panel1.Location = new System.Drawing.Point(547, 32);
+            this.panel1.Margin = new System.Windows.Forms.Padding(2);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(332, 917);
+            this.panel1.Size = new System.Drawing.Size(249, 651);
             this.panel1.TabIndex = 1;
             // 
             // tabControl1
@@ -147,19 +150,21 @@
             this.tabControl1.Controls.Add(this.tabPage2);
             this.tabControl1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tabControl1.Location = new System.Drawing.Point(0, 0);
+            this.tabControl1.Margin = new System.Windows.Forms.Padding(2);
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
-            this.tabControl1.Size = new System.Drawing.Size(332, 917);
+            this.tabControl1.Size = new System.Drawing.Size(249, 651);
             this.tabControl1.TabIndex = 0;
             // 
             // tabPage1
             // 
             this.tabPage1.Controls.Add(this.groupBox2);
             this.tabPage1.Controls.Add(this.groupBox1);
-            this.tabPage1.Location = new System.Drawing.Point(4, 25);
+            this.tabPage1.Location = new System.Drawing.Point(4, 22);
+            this.tabPage1.Margin = new System.Windows.Forms.Padding(2);
             this.tabPage1.Name = "tabPage1";
-            this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage1.Size = new System.Drawing.Size(324, 888);
+            this.tabPage1.Padding = new System.Windows.Forms.Padding(2);
+            this.tabPage1.Size = new System.Drawing.Size(241, 625);
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "基础配置";
             this.tabPage1.UseVisualStyleBackColor = true;
@@ -189,9 +194,11 @@
             this.groupBox2.Controls.Add(this.label22);
             this.groupBox2.Controls.Add(this.lbl_area);
             this.groupBox2.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.groupBox2.Location = new System.Drawing.Point(3, 521);
+            this.groupBox2.Location = new System.Drawing.Point(2, 332);
+            this.groupBox2.Margin = new System.Windows.Forms.Padding(2);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(318, 364);
+            this.groupBox2.Padding = new System.Windows.Forms.Padding(2);
+            this.groupBox2.Size = new System.Drawing.Size(237, 291);
             this.groupBox2.TabIndex = 1;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "航测参数";
@@ -200,9 +207,10 @@
             // 
             this.lbl_flighttime.AutoSize = true;
             this.lbl_flighttime.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.lbl_flighttime.Location = new System.Drawing.Point(117, 292);
+            this.lbl_flighttime.Location = new System.Drawing.Point(88, 234);
+            this.lbl_flighttime.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lbl_flighttime.Name = "lbl_flighttime";
-            this.lbl_flighttime.Size = new System.Drawing.Size(39, 15);
+            this.lbl_flighttime.Size = new System.Drawing.Size(29, 12);
             this.lbl_flighttime.TabIndex = 42;
             this.lbl_flighttime.Text = "0.00";
             // 
@@ -210,9 +218,10 @@
             // 
             this.label31.AutoSize = true;
             this.label31.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.label31.Location = new System.Drawing.Point(10, 292);
+            this.label31.Location = new System.Drawing.Point(8, 234);
+            this.label31.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label31.Name = "label31";
-            this.label31.Size = new System.Drawing.Size(105, 15);
+            this.label31.Size = new System.Drawing.Size(83, 12);
             this.label31.TabIndex = 41;
             this.label31.Text = "预计飞行时间:";
             // 
@@ -220,9 +229,10 @@
             // 
             this.lbl_distbetweenlines.AutoSize = true;
             this.lbl_distbetweenlines.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.lbl_distbetweenlines.Location = new System.Drawing.Point(117, 262);
+            this.lbl_distbetweenlines.Location = new System.Drawing.Point(88, 210);
+            this.lbl_distbetweenlines.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lbl_distbetweenlines.Name = "lbl_distbetweenlines";
-            this.lbl_distbetweenlines.Size = new System.Drawing.Size(39, 15);
+            this.lbl_distbetweenlines.Size = new System.Drawing.Size(29, 12);
             this.lbl_distbetweenlines.TabIndex = 40;
             this.lbl_distbetweenlines.Text = "0.00";
             // 
@@ -230,9 +240,10 @@
             // 
             this.label25.AutoSize = true;
             this.label25.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.label25.Location = new System.Drawing.Point(10, 262);
+            this.label25.Location = new System.Drawing.Point(8, 210);
+            this.label25.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label25.Name = "label25";
-            this.label25.Size = new System.Drawing.Size(75, 15);
+            this.label25.Size = new System.Drawing.Size(59, 12);
             this.label25.TabIndex = 39;
             this.label25.Text = "航带间距:";
             // 
@@ -240,9 +251,10 @@
             // 
             this.lbl_footprint.AutoSize = true;
             this.lbl_footprint.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.lbl_footprint.Location = new System.Drawing.Point(117, 232);
+            this.lbl_footprint.Location = new System.Drawing.Point(88, 186);
+            this.lbl_footprint.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lbl_footprint.Name = "lbl_footprint";
-            this.lbl_footprint.Size = new System.Drawing.Size(39, 15);
+            this.lbl_footprint.Size = new System.Drawing.Size(29, 12);
             this.lbl_footprint.TabIndex = 38;
             this.lbl_footprint.Text = "0.00";
             // 
@@ -250,9 +262,10 @@
             // 
             this.label30.AutoSize = true;
             this.label30.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.label30.Location = new System.Drawing.Point(9, 232);
+            this.label30.Location = new System.Drawing.Point(7, 186);
+            this.label30.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label30.Name = "label30";
-            this.label30.Size = new System.Drawing.Size(75, 15);
+            this.label30.Size = new System.Drawing.Size(59, 12);
             this.label30.TabIndex = 37;
             this.label30.Text = "相幅面积:";
             // 
@@ -260,9 +273,10 @@
             // 
             this.lbl_strips.AutoSize = true;
             this.lbl_strips.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.lbl_strips.Location = new System.Drawing.Point(117, 202);
+            this.lbl_strips.Location = new System.Drawing.Point(88, 162);
+            this.lbl_strips.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lbl_strips.Name = "lbl_strips";
-            this.lbl_strips.Size = new System.Drawing.Size(39, 15);
+            this.lbl_strips.Size = new System.Drawing.Size(29, 12);
             this.lbl_strips.TabIndex = 36;
             this.lbl_strips.Text = "0.00";
             // 
@@ -270,9 +284,10 @@
             // 
             this.label33.AutoSize = true;
             this.label33.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.label33.Location = new System.Drawing.Point(9, 202);
+            this.label33.Location = new System.Drawing.Point(7, 162);
+            this.label33.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label33.Name = "label33";
-            this.label33.Size = new System.Drawing.Size(75, 15);
+            this.label33.Size = new System.Drawing.Size(59, 12);
             this.label33.TabIndex = 35;
             this.label33.Text = "航带数量:";
             // 
@@ -280,9 +295,10 @@
             // 
             this.lbl_pictures.AutoSize = true;
             this.lbl_pictures.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.lbl_pictures.Location = new System.Drawing.Point(117, 172);
+            this.lbl_pictures.Location = new System.Drawing.Point(88, 138);
+            this.lbl_pictures.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lbl_pictures.Name = "lbl_pictures";
-            this.lbl_pictures.Size = new System.Drawing.Size(39, 15);
+            this.lbl_pictures.Size = new System.Drawing.Size(29, 12);
             this.lbl_pictures.TabIndex = 34;
             this.lbl_pictures.Text = "0.00";
             // 
@@ -290,9 +306,10 @@
             // 
             this.label34.AutoSize = true;
             this.label34.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.label34.Location = new System.Drawing.Point(9, 172);
+            this.label34.Location = new System.Drawing.Point(7, 138);
+            this.label34.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label34.Name = "label34";
-            this.label34.Size = new System.Drawing.Size(75, 15);
+            this.label34.Size = new System.Drawing.Size(59, 12);
             this.label34.TabIndex = 33;
             this.label34.Text = "照片数量:";
             // 
@@ -300,9 +317,10 @@
             // 
             this.lbl_photoevery.AutoSize = true;
             this.lbl_photoevery.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.lbl_photoevery.Location = new System.Drawing.Point(117, 142);
+            this.lbl_photoevery.Location = new System.Drawing.Point(88, 114);
+            this.lbl_photoevery.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lbl_photoevery.Name = "lbl_photoevery";
-            this.lbl_photoevery.Size = new System.Drawing.Size(39, 15);
+            this.lbl_photoevery.Size = new System.Drawing.Size(29, 12);
             this.lbl_photoevery.TabIndex = 32;
             this.lbl_photoevery.Text = "0.00";
             // 
@@ -310,9 +328,10 @@
             // 
             this.label35.AutoSize = true;
             this.label35.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.label35.Location = new System.Drawing.Point(10, 142);
+            this.label35.Location = new System.Drawing.Point(8, 114);
+            this.label35.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label35.Name = "label35";
-            this.label35.Size = new System.Drawing.Size(105, 15);
+            this.label35.Size = new System.Drawing.Size(83, 12);
             this.label35.TabIndex = 31;
             this.label35.Text = "拍摄间隔时间:";
             // 
@@ -320,9 +339,10 @@
             // 
             this.lbl_spacing.AutoSize = true;
             this.lbl_spacing.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.lbl_spacing.Location = new System.Drawing.Point(117, 112);
+            this.lbl_spacing.Location = new System.Drawing.Point(88, 90);
+            this.lbl_spacing.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lbl_spacing.Name = "lbl_spacing";
-            this.lbl_spacing.Size = new System.Drawing.Size(39, 15);
+            this.lbl_spacing.Size = new System.Drawing.Size(29, 12);
             this.lbl_spacing.TabIndex = 30;
             this.lbl_spacing.Text = "0.00";
             // 
@@ -330,9 +350,10 @@
             // 
             this.label27.AutoSize = true;
             this.label27.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.label27.Location = new System.Drawing.Point(10, 112);
+            this.label27.Location = new System.Drawing.Point(8, 90);
+            this.label27.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label27.Name = "label27";
-            this.label27.Size = new System.Drawing.Size(113, 15);
+            this.label27.Size = new System.Drawing.Size(89, 12);
             this.label27.TabIndex = 29;
             this.label27.Text = "拍摄间隔距离: ";
             // 
@@ -340,9 +361,10 @@
             // 
             this.lbl_distance.AutoSize = true;
             this.lbl_distance.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.lbl_distance.Location = new System.Drawing.Point(117, 83);
+            this.lbl_distance.Location = new System.Drawing.Point(88, 66);
+            this.lbl_distance.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lbl_distance.Name = "lbl_distance";
-            this.lbl_distance.Size = new System.Drawing.Size(39, 15);
+            this.lbl_distance.Size = new System.Drawing.Size(29, 12);
             this.lbl_distance.TabIndex = 28;
             this.lbl_distance.Text = "0.00";
             // 
@@ -350,9 +372,10 @@
             // 
             this.label23.AutoSize = true;
             this.label23.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.label23.Location = new System.Drawing.Point(10, 82);
+            this.label23.Location = new System.Drawing.Point(8, 66);
+            this.label23.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label23.Name = "label23";
-            this.label23.Size = new System.Drawing.Size(83, 15);
+            this.label23.Size = new System.Drawing.Size(65, 12);
             this.label23.TabIndex = 27;
             this.label23.Text = "作业距离: ";
             // 
@@ -360,9 +383,10 @@
             // 
             this.lbl_grndres.AutoSize = true;
             this.lbl_grndres.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.lbl_grndres.Location = new System.Drawing.Point(117, 52);
+            this.lbl_grndres.Location = new System.Drawing.Point(88, 42);
+            this.lbl_grndres.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lbl_grndres.Name = "lbl_grndres";
-            this.lbl_grndres.Size = new System.Drawing.Size(39, 15);
+            this.lbl_grndres.Size = new System.Drawing.Size(29, 12);
             this.lbl_grndres.TabIndex = 26;
             this.lbl_grndres.Text = "0.00";
             // 
@@ -370,9 +394,10 @@
             // 
             this.label29.AutoSize = true;
             this.label29.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.label29.Location = new System.Drawing.Point(10, 52);
+            this.label29.Location = new System.Drawing.Point(8, 42);
+            this.label29.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label29.Name = "label29";
-            this.label29.Size = new System.Drawing.Size(105, 15);
+            this.label29.Size = new System.Drawing.Size(83, 12);
             this.label29.TabIndex = 25;
             this.label29.Text = "地面分辨率： ";
             // 
@@ -380,9 +405,10 @@
             // 
             this.lbl_gndelev.AutoSize = true;
             this.lbl_gndelev.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.lbl_gndelev.Location = new System.Drawing.Point(117, 322);
+            this.lbl_gndelev.Location = new System.Drawing.Point(88, 258);
+            this.lbl_gndelev.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lbl_gndelev.Name = "lbl_gndelev";
-            this.lbl_gndelev.Size = new System.Drawing.Size(39, 15);
+            this.lbl_gndelev.Size = new System.Drawing.Size(29, 12);
             this.lbl_gndelev.TabIndex = 24;
             this.lbl_gndelev.Text = "0.00";
             // 
@@ -390,9 +416,10 @@
             // 
             this.label40.AutoSize = true;
             this.label40.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.label40.Location = new System.Drawing.Point(10, 322);
+            this.label40.Location = new System.Drawing.Point(8, 258);
+            this.label40.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label40.Name = "label40";
-            this.label40.Size = new System.Drawing.Size(75, 15);
+            this.label40.Size = new System.Drawing.Size(59, 12);
             this.label40.TabIndex = 23;
             this.label40.Text = "地面高程:";
             // 
@@ -400,9 +427,10 @@
             // 
             this.label22.AutoSize = true;
             this.label22.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.label22.Location = new System.Drawing.Point(9, 22);
+            this.label22.Location = new System.Drawing.Point(7, 18);
+            this.label22.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label22.Name = "label22";
-            this.label22.Size = new System.Drawing.Size(83, 15);
+            this.label22.Size = new System.Drawing.Size(65, 12);
             this.label22.TabIndex = 4;
             this.label22.Text = "作业面积: ";
             // 
@@ -410,14 +438,16 @@
             // 
             this.lbl_area.AutoSize = true;
             this.lbl_area.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.lbl_area.Location = new System.Drawing.Point(117, 21);
+            this.lbl_area.Location = new System.Drawing.Point(88, 17);
+            this.lbl_area.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lbl_area.Name = "lbl_area";
-            this.lbl_area.Size = new System.Drawing.Size(39, 15);
+            this.lbl_area.Size = new System.Drawing.Size(29, 12);
             this.lbl_area.TabIndex = 3;
             this.lbl_area.Text = "0.00";
             // 
             // groupBox1
             // 
+            this.groupBox1.Controls.Add(this.CHK_boundary);
             this.groupBox1.Controls.Add(this.label2);
             this.groupBox1.Controls.Add(this.NUM_dist);
             this.groupBox1.Controls.Add(this.CHK_markers);
@@ -436,19 +466,33 @@
             this.groupBox1.Controls.Add(this.CMB_camera);
             this.groupBox1.Controls.Add(this.label26);
             this.groupBox1.Dock = System.Windows.Forms.DockStyle.Top;
-            this.groupBox1.Location = new System.Drawing.Point(3, 3);
+            this.groupBox1.Location = new System.Drawing.Point(2, 2);
+            this.groupBox1.Margin = new System.Windows.Forms.Padding(2);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(318, 512);
+            this.groupBox1.Padding = new System.Windows.Forms.Padding(2);
+            this.groupBox1.Size = new System.Drawing.Size(237, 410);
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "航测配置";
             // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.label2.Location = new System.Drawing.Point(18, 176);
+            this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(71, 12);
+            this.label2.TabIndex = 68;
+            this.label2.Text = "航带间距[m]";
+            // 
             // NUM_dist
             // 
             this.NUM_dist.DecimalPlaces = 1;
-            this.NUM_dist.Location = new System.Drawing.Point(157, 220);
+            this.NUM_dist.Location = new System.Drawing.Point(118, 176);
+            this.NUM_dist.Margin = new System.Windows.Forms.Padding(2);
             this.NUM_dist.Name = "NUM_dist";
-            this.NUM_dist.Size = new System.Drawing.Size(51, 25);
+            this.NUM_dist.Size = new System.Drawing.Size(38, 21);
             this.NUM_dist.TabIndex = 67;
             this.NUM_dist.Value = new decimal(new int[] {
             100,
@@ -460,9 +504,10 @@
             // CHK_markers
             // 
             this.CHK_markers.AutoSize = true;
-            this.CHK_markers.Location = new System.Drawing.Point(135, 346);
+            this.CHK_markers.Location = new System.Drawing.Point(101, 277);
+            this.CHK_markers.Margin = new System.Windows.Forms.Padding(2);
             this.CHK_markers.Name = "CHK_markers";
-            this.CHK_markers.Size = new System.Drawing.Size(59, 19);
+            this.CHK_markers.Size = new System.Drawing.Size(48, 16);
             this.CHK_markers.TabIndex = 66;
             this.CHK_markers.Text = "航点";
             this.CHK_markers.UseVisualStyleBackColor = true;
@@ -470,20 +515,23 @@
             // chk_crossgrid
             // 
             this.chk_crossgrid.AutoSize = true;
-            this.chk_crossgrid.Location = new System.Drawing.Point(134, 274);
+            this.chk_crossgrid.Location = new System.Drawing.Point(100, 219);
+            this.chk_crossgrid.Margin = new System.Windows.Forms.Padding(2);
             this.chk_crossgrid.Name = "chk_crossgrid";
-            this.chk_crossgrid.Size = new System.Drawing.Size(89, 19);
+            this.chk_crossgrid.Size = new System.Drawing.Size(72, 16);
             this.chk_crossgrid.TabIndex = 65;
             this.chk_crossgrid.Text = "十字航线";
             this.chk_crossgrid.UseVisualStyleBackColor = true;
+            this.chk_crossgrid.CheckedChanged += new System.EventHandler(this.domainUpDown1_ValueChanged);
             // 
             // CHK_footprints
             // 
             this.CHK_footprints.AutoSize = true;
             this.CHK_footprints.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.CHK_footprints.Location = new System.Drawing.Point(134, 309);
+            this.CHK_footprints.Location = new System.Drawing.Point(100, 247);
+            this.CHK_footprints.Margin = new System.Windows.Forms.Padding(2);
             this.CHK_footprints.Name = "CHK_footprints";
-            this.CHK_footprints.Size = new System.Drawing.Size(89, 19);
+            this.CHK_footprints.Size = new System.Drawing.Size(72, 16);
             this.CHK_footprints.TabIndex = 64;
             this.CHK_footprints.Text = "拍摄范围";
             this.CHK_footprints.UseVisualStyleBackColor = true;
@@ -492,9 +540,10 @@
             // 
             this.label8.AutoSize = true;
             this.label8.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.label8.Location = new System.Drawing.Point(21, 152);
+            this.label8.Location = new System.Drawing.Point(16, 122);
+            this.label8.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(114, 15);
+            this.label8.Size = new System.Drawing.Size(89, 12);
             this.label8.TabIndex = 60;
             this.label8.Text = "航向重叠率 [%]";
             // 
@@ -502,18 +551,20 @@
             // 
             this.label15.AutoSize = true;
             this.label15.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.label15.Location = new System.Drawing.Point(21, 178);
+            this.label15.Location = new System.Drawing.Point(16, 142);
+            this.label15.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(114, 15);
+            this.label15.Size = new System.Drawing.Size(89, 12);
             this.label15.TabIndex = 61;
             this.label15.Text = "旁向重叠率 [%]";
             // 
             // num_overlap
             // 
             this.num_overlap.DecimalPlaces = 1;
-            this.num_overlap.Location = new System.Drawing.Point(157, 150);
+            this.num_overlap.Location = new System.Drawing.Point(118, 120);
+            this.num_overlap.Margin = new System.Windows.Forms.Padding(2);
             this.num_overlap.Name = "num_overlap";
-            this.num_overlap.Size = new System.Drawing.Size(51, 25);
+            this.num_overlap.Size = new System.Drawing.Size(38, 21);
             this.num_overlap.TabIndex = 62;
             this.num_overlap.Value = new decimal(new int[] {
             50,
@@ -525,9 +576,10 @@
             // num_sidelap
             // 
             this.num_sidelap.DecimalPlaces = 1;
-            this.num_sidelap.Location = new System.Drawing.Point(157, 176);
+            this.num_sidelap.Location = new System.Drawing.Point(118, 141);
+            this.num_sidelap.Margin = new System.Windows.Forms.Padding(2);
             this.num_sidelap.Name = "num_sidelap";
-            this.num_sidelap.Size = new System.Drawing.Size(51, 25);
+            this.num_sidelap.Size = new System.Drawing.Size(38, 21);
             this.num_sidelap.TabIndex = 63;
             this.num_sidelap.Value = new decimal(new int[] {
             60,
@@ -540,22 +592,24 @@
             // 
             this.label4.AutoSize = true;
             this.label4.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.label4.Location = new System.Drawing.Point(21, 117);
+            this.label4.Location = new System.Drawing.Point(16, 94);
+            this.label4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(77, 15);
+            this.label4.Size = new System.Drawing.Size(59, 12);
             this.label4.TabIndex = 54;
             this.label4.Text = "角度[deg]";
             // 
             // NUM_angle
             // 
-            this.NUM_angle.Location = new System.Drawing.Point(157, 115);
+            this.NUM_angle.Location = new System.Drawing.Point(118, 92);
+            this.NUM_angle.Margin = new System.Windows.Forms.Padding(2);
             this.NUM_angle.Maximum = new decimal(new int[] {
             360,
             0,
             0,
             0});
             this.NUM_angle.Name = "NUM_angle";
-            this.NUM_angle.Size = new System.Drawing.Size(51, 25);
+            this.NUM_angle.Size = new System.Drawing.Size(38, 21);
             this.NUM_angle.TabIndex = 53;
             this.NUM_angle.ValueChanged += new System.EventHandler(this.domainUpDown1_ValueChanged);
             // 
@@ -566,7 +620,8 @@
             0,
             0,
             0});
-            this.NUM_altitude.Location = new System.Drawing.Point(157, 84);
+            this.NUM_altitude.Location = new System.Drawing.Point(118, 67);
+            this.NUM_altitude.Margin = new System.Windows.Forms.Padding(2);
             this.NUM_altitude.Maximum = new decimal(new int[] {
             9999,
             0,
@@ -578,7 +633,7 @@
             0,
             0});
             this.NUM_altitude.Name = "NUM_altitude";
-            this.NUM_altitude.Size = new System.Drawing.Size(51, 25);
+            this.NUM_altitude.Size = new System.Drawing.Size(38, 21);
             this.NUM_altitude.TabIndex = 51;
             this.NUM_altitude.Value = new decimal(new int[] {
             100,
@@ -591,18 +646,20 @@
             // 
             this.label1.AutoSize = true;
             this.label1.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.label1.Location = new System.Drawing.Point(21, 86);
+            this.label1.Location = new System.Drawing.Point(16, 69);
+            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(91, 15);
+            this.label1.Size = new System.Drawing.Size(71, 12);
             this.label1.TabIndex = 50;
             this.label1.Text = "飞行高度[m]";
             // 
             // CMB_startfrom
             // 
             this.CMB_startfrom.FormattingEnabled = true;
-            this.CMB_startfrom.Location = new System.Drawing.Point(157, 52);
+            this.CMB_startfrom.Location = new System.Drawing.Point(118, 42);
+            this.CMB_startfrom.Margin = new System.Windows.Forms.Padding(2);
             this.CMB_startfrom.Name = "CMB_startfrom";
-            this.CMB_startfrom.Size = new System.Drawing.Size(92, 23);
+            this.CMB_startfrom.Size = new System.Drawing.Size(70, 20);
             this.CMB_startfrom.TabIndex = 49;
             this.CMB_startfrom.SelectedIndexChanged += new System.EventHandler(this.domainUpDown1_ValueChanged);
             // 
@@ -610,18 +667,20 @@
             // 
             this.label6.AutoSize = true;
             this.label6.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.label6.Location = new System.Drawing.Point(21, 52);
+            this.label6.Location = new System.Drawing.Point(16, 42);
+            this.label6.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(67, 15);
+            this.label6.Size = new System.Drawing.Size(53, 12);
             this.label6.TabIndex = 48;
             this.label6.Text = "开始位置";
             // 
             // CMB_camera
             // 
             this.CMB_camera.FormattingEnabled = true;
-            this.CMB_camera.Location = new System.Drawing.Point(157, 18);
+            this.CMB_camera.Location = new System.Drawing.Point(118, 14);
+            this.CMB_camera.Margin = new System.Windows.Forms.Padding(2);
             this.CMB_camera.Name = "CMB_camera";
-            this.CMB_camera.Size = new System.Drawing.Size(117, 23);
+            this.CMB_camera.Size = new System.Drawing.Size(89, 20);
             this.CMB_camera.TabIndex = 47;
             this.CMB_camera.SelectedIndexChanged += new System.EventHandler(this.CMB_camera_SelectedIndexChanged);
             // 
@@ -629,19 +688,21 @@
             // 
             this.label26.AutoSize = true;
             this.label26.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.label26.Location = new System.Drawing.Point(21, 21);
+            this.label26.Location = new System.Drawing.Point(16, 17);
+            this.label26.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label26.Name = "label26";
-            this.label26.Size = new System.Drawing.Size(67, 15);
+            this.label26.Size = new System.Drawing.Size(53, 12);
             this.label26.TabIndex = 46;
             this.label26.Text = "相机选择";
             // 
             // tabPage2
             // 
             this.tabPage2.Controls.Add(this.groupBox3);
-            this.tabPage2.Location = new System.Drawing.Point(4, 25);
+            this.tabPage2.Location = new System.Drawing.Point(4, 22);
+            this.tabPage2.Margin = new System.Windows.Forms.Padding(2);
             this.tabPage2.Name = "tabPage2";
-            this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage2.Size = new System.Drawing.Size(324, 888);
+            this.tabPage2.Padding = new System.Windows.Forms.Padding(2);
+            this.tabPage2.Size = new System.Drawing.Size(241, 625);
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "相机配置";
             this.tabPage2.UseVisualStyleBackColor = true;
@@ -659,9 +720,11 @@
             this.groupBox3.Controls.Add(this.label14);
             this.groupBox3.Controls.Add(this.label13);
             this.groupBox3.Controls.Add(this.label11);
-            this.groupBox3.Location = new System.Drawing.Point(6, 6);
+            this.groupBox3.Location = new System.Drawing.Point(4, 5);
+            this.groupBox3.Margin = new System.Windows.Forms.Padding(2);
             this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Size = new System.Drawing.Size(312, 430);
+            this.groupBox3.Padding = new System.Windows.Forms.Padding(2);
+            this.groupBox3.Size = new System.Drawing.Size(234, 344);
             this.groupBox3.TabIndex = 0;
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "相机参数";
@@ -669,43 +732,48 @@
             // myButton1
             // 
             this.myButton1.BGGradTop = System.Drawing.Color.DodgerBlue;
-            this.myButton1.Location = new System.Drawing.Point(98, 196);
+            this.myButton1.Location = new System.Drawing.Point(74, 157);
+            this.myButton1.Margin = new System.Windows.Forms.Padding(2);
             this.myButton1.Name = "myButton1";
             this.myButton1.Outline = System.Drawing.Color.DodgerBlue;
-            this.myButton1.Size = new System.Drawing.Size(75, 23);
+            this.myButton1.Size = new System.Drawing.Size(56, 18);
             this.myButton1.TabIndex = 78;
             this.myButton1.Text = "保存";
             this.myButton1.UseVisualStyleBackColor = true;
             // 
             // TXT_sensheight
             // 
-            this.TXT_sensheight.Location = new System.Drawing.Point(164, 142);
+            this.TXT_sensheight.Location = new System.Drawing.Point(123, 114);
+            this.TXT_sensheight.Margin = new System.Windows.Forms.Padding(2);
             this.TXT_sensheight.Name = "TXT_sensheight";
-            this.TXT_sensheight.Size = new System.Drawing.Size(51, 25);
+            this.TXT_sensheight.Size = new System.Drawing.Size(39, 21);
             this.TXT_sensheight.TabIndex = 77;
             this.TXT_sensheight.Text = "4.62";
             // 
             // TXT_senswidth
             // 
-            this.TXT_senswidth.Location = new System.Drawing.Point(164, 116);
+            this.TXT_senswidth.Location = new System.Drawing.Point(123, 93);
+            this.TXT_senswidth.Margin = new System.Windows.Forms.Padding(2);
             this.TXT_senswidth.Name = "TXT_senswidth";
-            this.TXT_senswidth.Size = new System.Drawing.Size(51, 25);
+            this.TXT_senswidth.Size = new System.Drawing.Size(39, 21);
             this.TXT_senswidth.TabIndex = 76;
             this.TXT_senswidth.Text = "6.16";
             // 
             // TXT_imgheight
             // 
-            this.TXT_imgheight.Location = new System.Drawing.Point(164, 90);
+            this.TXT_imgheight.Location = new System.Drawing.Point(123, 72);
+            this.TXT_imgheight.Margin = new System.Windows.Forms.Padding(2);
             this.TXT_imgheight.Name = "TXT_imgheight";
-            this.TXT_imgheight.Size = new System.Drawing.Size(51, 25);
+            this.TXT_imgheight.Size = new System.Drawing.Size(39, 21);
             this.TXT_imgheight.TabIndex = 75;
             this.TXT_imgheight.Text = "3456";
             // 
             // TXT_imgwidth
             // 
-            this.TXT_imgwidth.Location = new System.Drawing.Point(164, 64);
+            this.TXT_imgwidth.Location = new System.Drawing.Point(123, 51);
+            this.TXT_imgwidth.Margin = new System.Windows.Forms.Padding(2);
             this.TXT_imgwidth.Name = "TXT_imgwidth";
-            this.TXT_imgwidth.Size = new System.Drawing.Size(51, 25);
+            this.TXT_imgwidth.Size = new System.Drawing.Size(39, 21);
             this.TXT_imgwidth.TabIndex = 74;
             this.TXT_imgwidth.Text = "4608";
             // 
@@ -717,7 +785,8 @@
             0,
             0,
             65536});
-            this.NUM_focallength.Location = new System.Drawing.Point(164, 38);
+            this.NUM_focallength.Location = new System.Drawing.Point(123, 30);
+            this.NUM_focallength.Margin = new System.Windows.Forms.Padding(2);
             this.NUM_focallength.Maximum = new decimal(new int[] {
             180,
             0,
@@ -729,7 +798,7 @@
             0,
             0});
             this.NUM_focallength.Name = "NUM_focallength";
-            this.NUM_focallength.Size = new System.Drawing.Size(51, 25);
+            this.NUM_focallength.Size = new System.Drawing.Size(38, 21);
             this.NUM_focallength.TabIndex = 73;
             this.NUM_focallength.Value = new decimal(new int[] {
             5,
@@ -741,9 +810,10 @@
             // 
             this.label9.AutoSize = true;
             this.label9.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.label9.Location = new System.Drawing.Point(28, 140);
+            this.label9.Location = new System.Drawing.Point(21, 112);
+            this.label9.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(107, 15);
+            this.label9.Size = new System.Drawing.Size(83, 12);
             this.label9.TabIndex = 72;
             this.label9.Text = "传感器高 [mm]";
             // 
@@ -751,9 +821,10 @@
             // 
             this.label10.AutoSize = true;
             this.label10.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.label10.Location = new System.Drawing.Point(28, 114);
+            this.label10.Location = new System.Drawing.Point(21, 91);
+            this.label10.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(107, 15);
+            this.label10.Size = new System.Drawing.Size(83, 12);
             this.label10.TabIndex = 71;
             this.label10.Text = "传感器宽 [mm]";
             // 
@@ -761,9 +832,10 @@
             // 
             this.label14.AutoSize = true;
             this.label14.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.label14.Location = new System.Drawing.Point(28, 88);
+            this.label14.Location = new System.Drawing.Point(21, 70);
+            this.label14.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(124, 15);
+            this.label14.Size = new System.Drawing.Size(95, 12);
             this.label14.TabIndex = 70;
             this.label14.Text = "像素高 [Pixels]";
             // 
@@ -771,9 +843,10 @@
             // 
             this.label13.AutoSize = true;
             this.label13.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.label13.Location = new System.Drawing.Point(28, 62);
+            this.label13.Location = new System.Drawing.Point(21, 50);
+            this.label13.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(124, 15);
+            this.label13.Size = new System.Drawing.Size(95, 12);
             this.label13.TabIndex = 69;
             this.label13.Text = "像素宽 [Pixels]";
             // 
@@ -781,9 +854,10 @@
             // 
             this.label11.AutoSize = true;
             this.label11.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.label11.Location = new System.Drawing.Point(28, 40);
+            this.label11.Location = new System.Drawing.Point(21, 32);
+            this.label11.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(77, 15);
+            this.label11.Size = new System.Drawing.Size(59, 12);
             this.label11.TabIndex = 68;
             this.label11.Text = "焦距 [mm]";
             // 
@@ -791,35 +865,40 @@
             // 
             this.FlightPlanner_TrackBar.Dock = System.Windows.Forms.DockStyle.Right;
             this.FlightPlanner_TrackBar.LargeChange = 0.005F;
-            this.FlightPlanner_TrackBar.Location = new System.Drawing.Point(674, 32);
+            this.FlightPlanner_TrackBar.Location = new System.Drawing.Point(502, 32);
+            this.FlightPlanner_TrackBar.Margin = new System.Windows.Forms.Padding(2);
             this.FlightPlanner_TrackBar.Maximum = 0.01F;
             this.FlightPlanner_TrackBar.Minimum = 0F;
             this.FlightPlanner_TrackBar.Name = "FlightPlanner_TrackBar";
             this.FlightPlanner_TrackBar.Orientation = System.Windows.Forms.Orientation.Vertical;
-            this.FlightPlanner_TrackBar.Size = new System.Drawing.Size(56, 917);
+            this.FlightPlanner_TrackBar.Size = new System.Drawing.Size(45, 651);
             this.FlightPlanner_TrackBar.SmallChange = 0.001F;
             this.FlightPlanner_TrackBar.TabIndex = 6;
             this.FlightPlanner_TrackBar.TickFrequency = 0.001F;
             this.FlightPlanner_TrackBar.Value = 0F;
             // 
-            // label2
+            // CHK_boundary
             // 
-            this.label2.AutoSize = true;
-            this.label2.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.label2.Location = new System.Drawing.Point(24, 220);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(91, 15);
-            this.label2.TabIndex = 68;
-            this.label2.Text = "航带间距[m]";
+            this.CHK_boundary.AutoSize = true;
+            this.CHK_boundary.Checked = true;
+            this.CHK_boundary.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.CHK_boundary.Location = new System.Drawing.Point(13, 219);
+            this.CHK_boundary.Name = "CHK_boundary";
+            this.CHK_boundary.Size = new System.Drawing.Size(48, 16);
+            this.CHK_boundary.TabIndex = 69;
+            this.CHK_boundary.Text = "边界";
+            this.CHK_boundary.UseVisualStyleBackColor = true;
+            this.CHK_boundary.CheckedChanged += new System.EventHandler(this.domainUpDown1_ValueChanged);
             // 
             // gridui
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1066, 953);
+            this.ClientSize = new System.Drawing.Size(800, 687);
             this.Controls.Add(this.FlightPlanner_TrackBar);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.map);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "gridui";
             this.Text = "gridui";
             this.Load += new System.EventHandler(this.gridui_Load);
@@ -906,5 +985,6 @@
         private System.Windows.Forms.CheckBox CHK_markers;
         private System.Windows.Forms.NumericUpDown NUM_dist;
         private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.CheckBox CHK_boundary;
     }
 }
