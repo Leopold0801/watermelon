@@ -1,4 +1,0 @@
-E:\project\UAC\UFight\Mavlink\obj\Debug\net40\MAVLink.csprojResolveAssemblyReference.cache
-E:\project\UAC\UFight\Mavlink\obj\Debug\net40\MAVLink.csproj.CoreCompileInputs.cache
-E:\project\UAC\UFight\Mavlink\obj\Debug\net40\MAVLink.AssemblyInfoInputs.cache
-E:\project\UAC\UFight\Mavlink\obj\Debug\net40\MAVLink.AssemblyInfo.cs
